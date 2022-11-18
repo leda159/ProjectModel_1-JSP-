@@ -11,7 +11,7 @@
 <%
 //디비 접속
 Class.forName("com.mysql.jdbc.Driver");
-String url = "jdbc:mysql://localhost:3306/project01";
-String user = "root";
-String password="1111";
+String url = "jdbc:mysql://localhost:3306/project1";
+String user = "project1";
+String password="project1";
 %>
