@@ -224,7 +224,7 @@ int total_page = 0;
 									signdate = signdate.substring(0,16);
 								%>
 								<td width=90>
-									<a href="/bbs4/view.jsp?code=gallery&uid=<%=uid%>">"<img src="/upload/<%=file1%>" width=80% height=80%></a>
+									<a href="/bbs4/view.jsp?code=gallery&uid=<%=uid%>"><img src="/upload/<%=file1%>" width=80% height=80%></a>
 									<br>
 									<%=signdate %>
 								</td>
@@ -253,7 +253,7 @@ int total_page = 0;
 									signdate = signdate.substring(0,16);
 								%>
 								<td width=90>
-									<a href="/bbs4/view.jsp?code=gallery&uid=<%=uid%>">"<img src="/upload/<%=file1%>" width=80% height=80%></a>
+									<a href="/bbs4/view.jsp?code=gallery&uid=<%=uid%>"><img src="/upload/<%=file1%>" width=80% height=80%></a>
 									<br>
 									<%=signdate %>
 								</td>

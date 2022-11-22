@@ -8,7 +8,7 @@
 <%
 request.setCharacterEncoding("utf-8");
 
-String saveDir="C:\\jsp_project\\testa\\src\\main\\webapp\\upload";
+String saveDir="C:\\projectModel_1\\projectModel_1\\project_1\\src\\main\\webapp\\upload";
 int maxSize = 5* 1024 * 1024; //업로드 될 파일의 크기제한, 단위:byte
 
 MultipartRequest multi= new MultipartRequest(request,saveDir, maxSize,"utf-8",new DefaultFileRenamePolicy());
